@@ -1,0 +1,309 @@
+.f-contents {
+    background: #F5F7FD;
+  }
+
+.f-content{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 #00000012;
+  margin-top: 16px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+}
+
+
+.f-content .p-payment{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+
+.f-content .p-billing{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.f-content .p-visa{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 16px;
+}
+
+.f-content .p-cvv{
+  color: #1A1E2B;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 10px 16px;
+
+
+}
+
+.f-content .cvv{
+  border: 1px solid #FDE5DB;
+  margin: 0px 16px;
+  width: 51px;
+  height: 31px;
+  padding: 5px 14px 6px 14px;
+  font-size: 14px;
+  color: #1A1E2B;
+  opacity: 30%;
+  outline: none;
+}
+
+.f-content .p-add-card{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.f-content .p-balance{
+  font-size: 16px;
+  font-weight: 400;
+  color: #1A1E2B;
+  margin-bottom: 24px;
+
+}
+
+.f-content .p-balance span{
+  color: #4169E2;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+  .payment-card {
+    /* background-color: #F5F7FD; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 16px 0 16px ;
+
+  }
+
+  hr.solid {
+    border-top: 1px solid #3c3c4329;
+    margin-top: 16px;
+  }
+  .cvv-card {
+    background-color: #F5F7FD;
+    margin: 0;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .visa-photo {
+    height: 27px;
+    width: 44px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: transparent;
+    /* transition: all 0.3s ease; */
+    /* margin-left: 10px; */
+  }
+  
+
+  .cvv-photo {
+    border-radius: 10%;
+    height: 16px;
+    width: 24px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: transparent;
+    /* transition: all 0.3s ease; */
+    margin-right: 16px;
+  }
+  
+  .visa-card {
+    display: flex;
+    align-items: center;
+  }
+
+ label{
+     font-size: 10px;
+     color: #191D2A;
+     font-weight: 700;
+     opacity: 50%;
+
+ }
+
+
+ .card-input input:focus{
+   border: none !important;
+  box-shadow: 0 2px 4px 0 #00000012;
+  outline: none !important;
+ }
+
+ .card-input input{
+   background-color: #FFFFFF;
+   box-shadow: 0 2px 4px 0 #00000012;
+  outline: none !important;
+  border: none;
+  border-radius: 7px !important;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: #191D2A;
+  height: 46px;
+ }
+
+.input-container{
+  margin-top: 16px;
+}
+
+
+  .btn-pay-green{
+    background-color: #46BE00 ;
+    box-shadow: 0 2px 4px 0 #00000012;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 24px !important;
+    padding: 16px 123px 15px 124px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    margin-top: 24px;
+    letter-spacing: 2px !important;
+    margin-bottom: 24px ;
+  }
+
+  .btn-pay-brown{
+    box-shadow: 0 2px 4px 0 #00000012;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 24px !important;
+    padding: 16px 120px 15px 120px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+  }
+  
+  
+
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    button.close {
+        color: #1a1e2b !important;
+        margin-top: -35px !important;
+        margin-left: 5px !important;
+        margin-right: -5px;
+        width: 11.41px;
+        height: 19.89px;
+        font-size: 48px;
+      }
+      .navbar h2{
+        margin-left: 50px !important;
+      
+        }
+    
+        .explore-f-input {
+            width: 300px;
+          }
+   
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    button.close {
+        color: #1a1e2b !important;
+        margin-top: -35px !important;
+        /* margin-left: 5px !important; */
+        margin-right: -5px;
+        width: 11.41px;
+        height: 19.89px;
+        font-size: 48px;
+      }
+    .navbar h2{
+        visibility: hidden;
+        /* background-color: red; */
+        /* margin-right: 45px; */
+
+    margin-left: -90px !important;
+  
+    }
+
+    .explore-f-input {
+        width: 150px;
+      }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    button.close {
+        color: #1a1e2b !important;
+        margin-top: -35px !important;
+        margin-left: -300px !important;
+        width: 11.41px;
+        height: 19.89px;
+        font-size: 48px;
+      }
+    .navbar h2{
+    margin-left: -280px !important;
+  
+    }
+
+    .explore-f-input {
+        width: 300px;
+      }
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    button.close {
+        color: #1a1e2b !important;
+        margin-top: -35px !important;
+        margin-left: -150px !important;
+        width: 11.41px;
+        height: 19.89px;
+        font-size: 48px;
+      }
+    .navbar h2{
+    margin-left: -140px !important;
+  
+    }
+
+    .explore-f-input {
+        width: 280px;
+      }
+
+  }
